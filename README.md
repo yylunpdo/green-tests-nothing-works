@@ -14,5 +14,7 @@ python3 main.py
 ```
 
 Writes the single line (1–140 characters, UTF-8) to `/output/entry.txt`.
+The line is validated first (single line, 1–140 chars, not blank) by
+`validate_entry()` in `main.py` before anything is written.
 
 Built for the [make.fun](https://make.fun/bounty/u-kiencx-green-tests-nothing-works-the-excuse-contest-8de010bc) bounty "Green Tests, Nothing Works".
